@@ -1,0 +1,81 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>study</groupId>
+	<artifactId>study</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.inlee</groupId>
+		<artifactId>opensesame</artifactId>
+		<version>1.1</version>
+	</parent>
+	<modules>
+		<module>study-gof</module>
+		<module>study-soa</module>
+		<module>study-common</module>
+		<module>study-opensesame</module>
+	</modules>
+	<properties>
+		<testng.version>6.3.1</testng.version>
+		<org.apache.tuscany.version>1.6.2</org.apache.tuscany.version>
+	</properties>
+
+	<build>
+		<resources>
+			<resource>
+				<!-- 扫描替换 -->
+				<directory>${basedir}/src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+	</build>
+	<profiles>
+		<profile>
+			<id>env-dev</id>
+			<activation>
+				<property>
+					<name>environment.type</name>
+					<value>env-dev</value>
+				</property>
+			</activation>
+			<properties>
+				<log_root>d:/logs/auth/page</log_root>
+			</properties>
+		</profile>
+	</profiles>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- ********** common ********** -->
+			<dependency>
+				<groupId>org.testng</groupId>
+				<artifactId>testng</artifactId>
+				<version>${testng.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<!--********* SOA tuscany ********* -->
+			<dependency>
+				<groupId>org.apache.tuscany.sca</groupId>
+				<artifactId>tuscany-host-embedded</artifactId>
+				<version>${org.apache.tuscany.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.tuscany.sca</groupId>
+				<artifactId>tuscany-host-webapp</artifactId>
+				<version>${org.apache.tuscany.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.tuscany.sca</groupId>
+				<artifactId>tuscany-implementation-java-runtime</artifactId>
+				<version>${org.apache.tuscany.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.tuscany.sca</groupId>
+				<artifactId>tuscany-binding-ws-axis2</artifactId>
+				<version>${org.apache.tuscany.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>
