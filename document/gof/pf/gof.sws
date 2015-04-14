@@ -14,7 +14,19 @@
 		<Model ID="{2B58E4F2-51D9-43F7-9E83-501DB095038E}" Loaded="No" Name="Adapter" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Adapter.oom"/>
 		<Model ID="{9BCAF7D4-2D1E-4BFF-A7B2-232E06E87338}" Loaded="No" Name="Decorator" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Decorator.oom"/>
 		<Model Expanded="Yes" ID="{6EA11473-F69C-46B0-A7EE-4F96CECD9D7E}" Loaded="No" Name="Facade" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Facade.oom"/>
-		<Model Expanded="Yes" ID="{4567A78B-9382-4172-BEE2-72413D5CBDB1}" Name="Bridge" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Bridge.oom"/>
+		<Model Expanded="Yes" ID="{4567A78B-9382-4172-BEE2-72413D5CBDB1}" Loaded="No" Name="Bridge" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Bridge.oom"/>
+		<Model ID="{36B75EBC-6BF0-48C2-9172-6C16765877F0}" Loaded="No" Name="Composite" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Composite.oom"/>
+		<Model ID="{CDF2D0A9-9ABC-4908-9BF4-23FD9DDF0819}" Loaded="No" Name="FlyWeight" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="FlyWeight.oom"/>
+		<Model ID="{30F4E3BD-E57D-4A41-970D-667BF69F0EBD}" Loaded="No" Name="Strategy" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Strategy.oom"/>
+		<Model ID="{FD15BD46-357A-4A2B-BF3B-6B5F6E3CAF02}" Loaded="No" Name="Template" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Template.oom"/>
+		<Model Expanded="Yes" ID="{4C4D2F62-B1C3-4B3E-923F-0A93C39D9D67}" Loaded="No" Name="Observer" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Observer.oom"/>
+		<Model Expanded="Yes" ID="{9F31C450-C72A-4825-B46B-6D180D5FC363}" Loaded="No" Name="Iterator" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Iterator.oom"/>
+		<Model Expanded="Yes" ID="{98F4C2ED-8257-479D-A00F-5E474E14D7D5}" Loaded="No" Name="ChainOfResponsibility" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="ChainOfResponsibility.oom"/>
+		<Model ID="{7ACF8DF2-DD35-4CFE-A987-ADE801096BFB}" Loaded="No" Name="Command" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Command.oom"/>
+		<Model ID="{8BDAA9B9-61C6-41FA-9911-60C8BB9756FC}" Loaded="No" Name="Memento" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Memento.oom"/>
+		<Model ID="{7C6AF6C7-170A-4CE4-A432-FC7B44FEB01C}" Loaded="No" Name="State" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="State.oom"/>
+		<Model ID="{9E8C9E79-37A7-4E4A-9CE7-8C86C299D836}" Name="Mediator" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Mediator.oom"/>
+		<Model Expanded="Yes" ID="{D17FD818-E778-45D3-8788-DF97B17C84D5}" Name="Interpreter" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Interpreter.oom"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
