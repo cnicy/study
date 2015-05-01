@@ -16,6 +16,7 @@
 		<module>study-soa</module>
 		<module>study-common</module>
 		<module>study-opensesame</module>
+		<module>study-jdk</module>
 	</modules>
 	<properties>
 		<testng.version>6.3.1</testng.version>

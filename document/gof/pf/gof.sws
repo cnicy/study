@@ -25,8 +25,8 @@
 		<Model ID="{7ACF8DF2-DD35-4CFE-A987-ADE801096BFB}" Loaded="No" Name="Command" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Command.oom"/>
 		<Model ID="{8BDAA9B9-61C6-41FA-9911-60C8BB9756FC}" Loaded="No" Name="Memento" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Memento.oom"/>
 		<Model ID="{7C6AF6C7-170A-4CE4-A432-FC7B44FEB01C}" Loaded="No" Name="State" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="State.oom"/>
-		<Model ID="{9E8C9E79-37A7-4E4A-9CE7-8C86C299D836}" Name="Mediator" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Mediator.oom"/>
-		<Model Expanded="Yes" ID="{D17FD818-E778-45D3-8788-DF97B17C84D5}" Name="Interpreter" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Interpreter.oom"/>
+		<Model ID="{9E8C9E79-37A7-4E4A-9CE7-8C86C299D836}" Loaded="No" Name="Mediator" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Mediator.oom"/>
+		<Model Expanded="Yes" ID="{D17FD818-E778-45D3-8788-DF97B17C84D5}" Loaded="No" Name="Interpreter" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Interpreter.oom"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
