@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="16" started-at="2015-04-16T15:39:22Z" finished-at="2015-04-16T15:39:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="16" started-at="2015-04-16T15:39:22Z" finished-at="2015-04-16T15:39:22Z">
+      <class name="me.jzz.study.jdk.test.number.ShortTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:me.jzz.study.jdk.test.number.ShortTest@606dbdc1]" name="test" duration-ms="0" started-at="2015-04-16T15:39:22Z" finished-at="2015-04-16T15:39:22Z">
+        </test-method>
+      </class>
+      <class name="me.jzz.study.jdk.test.string.StringBufferStringBuilderTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:me.jzz.study.jdk.test.string.StringBufferStringBuilderTest@2c851425]" name="test" duration-ms="0" started-at="2015-04-16T15:39:22Z" finished-at="2015-04-16T15:39:22Z">
+        </test-method>
+      </class>
+      <class name="me.jzz.study.jdk.test.string.StringTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:me.jzz.study.jdk.test.string.StringTest@44c4fb5c]" name="test1" duration-ms="0" started-at="2015-04-16T15:39:22Z" finished-at="2015-04-16T15:39:22Z">
+        </test-method>
+        <test-method status="PASS" signature="test()[pri:0, instance:me.jzz.study.jdk.test.string.StringTest@44c4fb5c]" name="test" duration-ms="0" started-at="2015-04-16T15:39:22Z" finished-at="2015-04-16T15:39:22Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21341" started-at="2015-04-28T02:38:51Z" finished-at="2015-04-28T02:39:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21341" started-at="2015-04-28T02:38:51Z" finished-at="2015-04-28T02:39:12Z">
+      <class name="me.jzz.study.jdk.test.collection.HashMapTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:me.jzz.study.jdk.test.collection.HashMapTest@1d3d58a1]" name="test" duration-ms="21341" started-at="2015-04-28T10:38:51Z" finished-at="2015-04-28T10:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- me.jzz.study.jdk.test.collection.HashMapTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
